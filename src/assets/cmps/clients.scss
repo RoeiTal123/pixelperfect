@@ -1,0 +1,41 @@
+.clients{
+    display: grid;
+    grid-template-columns: 165px auto 165px;
+    grid-template-rows: 1fr 1fr;
+    height: 437px;
+    background-color: #012f34;
+
+    .title{
+        grid-column: 2;
+        grid-row: 1;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        margin-block-end: 69px;
+        color: white;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    .brands{
+        grid-column: 2;
+        grid-row: 2;
+        display: flex;
+        justify-content: space-between;
+        img{
+            width: 165px;
+
+        }
+        .jakarta{
+            width: 184px;
+        }
+
+        .guardian{
+            width: 180px;
+        }
+
+        .gadgets{
+            width: 98px;
+        }
+    }
+}
