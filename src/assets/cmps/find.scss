@@ -1,0 +1,71 @@
+.find {
+    display: grid;
+    grid-template-columns: 165px auto 165px;
+    grid-template-rows: 241px 1fr;
+    background-color: #014e56;
+
+    height: 517px;
+    font-size: 18px;
+    .find-header {
+        grid-column: 2;
+        grid-row: 1;
+        margin-block-start: 77px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+    .links{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 380px;
+        a {
+        //   margin-inline-end: 10px;
+          color: white;
+          text-decoration: none;
+        }
+        .logo{
+            height: 40px;
+        }
+    }
+
+    .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid white;
+        width: 153px;
+        height: 48px;
+        border-radius: 24px;
+        color: white;
+        text-decoration: none;
+    }
+
+    }
+    .find-description{
+        grid-column: 2;
+        grid-row: 2;
+        display: flex;
+        color: white;
+        height: 153px;
+        .title{
+            width: 350px;
+            height: 100px;
+            font-size: 64px;
+            margin-inline-end: 30px;
+            span{
+                color: #f67e7e;
+            }
+        }
+        .description{
+            display: flex;
+            align-items: end;
+            width: 730px;
+            height: 109px;
+            &:before{
+                width: 50px;
+                background-color: orange;
+            }
+        }
+    }
+}

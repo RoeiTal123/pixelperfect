@@ -1,0 +1,39 @@
+.build{
+    display: flex;
+    height: 684px;
+    background-color: #012f34;
+    display: grid;
+    grid-template-columns: 165px 1fr 1fr 165px;
+    .title{
+        grid-column: 2;
+        height: 100px;
+        font-size: 48px;
+        margin-inline-end: 30px;
+        margin-block-start: 200px;
+        margin-block-end: 150px;
+    }
+    .description{
+        grid-column: 3;
+        display: flex;
+        flex-direction: column;
+        height: 109px;
+        margin-block-start: 200px;
+        margin-block-end: 150px;
+        span{
+            color: #f67e7e;
+        }
+        .paragraph{
+            display: flex;
+            flex-direction: row;
+            img{
+                width:50px;
+                height:50px;
+                margin-inline-end: 46px;
+            }
+            .paragraph-description{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

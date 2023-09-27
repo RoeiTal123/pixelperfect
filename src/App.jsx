@@ -1,6 +1,6 @@
 import { Route, HashRouter as Router, Routes} from "react-router-dom";
 
-import {About} from './cmps/About'
+import { AboutUs } from './pages/AboutUs';
 import { MainPage } from "./pages/MainPage";
 
 import './assets/main.scss'
@@ -14,7 +14,7 @@ function App() {
          <Routes>
            <Route element={<MainPage/>} path="/"/>
            <Route element={<MainPage/>} path="/home"/>
-           <Route element={<MainPage/>} path="/about"/>
+           <Route element={<AboutUs/>} path="/about"/>
          </Routes>
        </main>
 
